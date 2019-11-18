@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+/* card */
+
+.card_main{
+    transition: background-size .4s ease-in-out;
+    height: 70vh;
+    width: 20%;
+    background: url(./Images/the_path.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.top_card{
+    height: 40%;
+    width: 100%;
+}
+
+.card_data{
+    transition: 0.5s ease;
+    transition-delay: 0.2s;
+    padding-top: 5%;
+    height: 60%;
+    width: 100%;
+}
+
+.card_main:hover{
+    background-size: 155%;
+}
+
+.card_main:hover > .card_data{
+    background-color: #ffffff23;
+}
+
+/* card data */
+
+.notification{
+    background-color: #ffffff;
+    font-family: 'Hind', sans-serif;
+    font-size: 20pt;
+    width: 20%;
+    text-align: center;
+    margin: 5px auto 0 auto;
+    border-radius: 7px;
+    padding: 5px 5px 0px 5px;
+    line-height: 25pt;
+}
+
+.notification span{
+    mix-blend-mode: multiply;
+}
+
+h1{
+    font-family: 'Alata', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-top: 2%;
+}
+
+.line-short{
+    width: 15%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 5%;
+}
+
+.teaser{
+    font-family: 'Alata', sans-serif;
+    width: 90%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
