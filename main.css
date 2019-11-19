@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
 
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* card */
 
 .card_main{
-    transition: background-size .4s ease-in-out;
-    height: 70vh;
-    width: 20%;
-    background: url(./Images/the_path.jpg);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background-position: center;
+    transition: background-size .2s ease-in-out;
+    height: 800px;
+    width: 400px;
     cursor: pointer;
     border-radius: 40px;
+    margin: 5px 5px;
+    justify-content: space-around;
 }
 
 .top_card{
@@ -21,7 +24,7 @@
 }
 
 .card_data{
-    transition: 0.5s ease;
+    transition: 0.3s ease;
     transition-delay: 0.2s;
     padding-top: 5%;
     height: 60%;
@@ -51,7 +54,12 @@
 }
 
 .notification span{
+    color: #000;
     mix-blend-mode: multiply;
+}
+
+.spacer{
+    margin-top: 50px;
 }
 
 h1{
@@ -60,7 +68,7 @@ h1{
     text-align: center;
     width: 95%;
     margin: 0 auto;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 2%;
 }
 
@@ -78,4 +86,48 @@ h1{
     font-size: 1.5rem;
     text-align: center;
     margin: 50px auto 0 auto;
+}
+
+/* All Cards */
+
+.discovery_all{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px auto;
+}
+
+/* images */
+
+.the_path{
+    background: url(./Images/the_path.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+
+.the_path:hover{
+    background-size: 155%;
+}
+
+.the_future{
+    background: url(./Images/the_future.jpg);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center;
+}
+
+.the_future:hover{
+    background-size: 165%;
+}
+
+.the_fox{
+    background: url(./Images/the_fox.jpg);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center;
+}
+
+.the_fox:hover{
+    background-size: 165%;
 }
